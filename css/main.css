@@ -1350,14 +1350,20 @@ blockquote {
 	padding: 0;
 }
 
-blockquote img {
-	max-width: 75px;
+blockquote .avatar {
+	width: 80px;
+	height: 80px;
 	display: block;
 	border-radius: 50%;
 	border: 4px solid #3c2415;
 	margin: 0 auto 55px;
+	overflow: hidden;
 }
-
+blockquote .avatar img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 blockquote .media {
 	font-size: 14px;
 	font-style: normal;
