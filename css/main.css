@@ -5098,6 +5098,7 @@ body.boxed {
 	right: 0;
 	bottom: 0;
 	left: 0;
+	cursor: default
 }
 
 .media-links div {
