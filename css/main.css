@@ -7989,7 +7989,7 @@ body.active-side-header.slide-right .page_header_side {
 	width: 24px;
 	height: 2px;
 	position: absolute;
-	background-color: #ffffff;
+	background-color: #3a3a3c;
 	content: '';
 	left: 0;
 	-webkit-transition: all 0.2s ease-in-out 0s;
