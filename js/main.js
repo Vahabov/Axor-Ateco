@@ -697,17 +697,6 @@
 					initAnimateElement(jQuery(this), index);
 				});
 			});
-			if (jQuery().countTo) {
-				jQuery('.counter').appear();
-				jQuery('.counter').filter(':appeared').each(function () {
-					initCounter(jQuery(this));
-				});
-				$body.on('appear', '.counter', function (e, $affected) {
-					jQuery($affected).each(function () {
-						initCounter(jQuery(this));
-					});
-				});
-			}
 			if (jQuery().progressbar) {
 				jQuery('.progress .progress-bar').appear();
 				jQuery('.progress .progress-bar').filter(':appeared').each(function () {

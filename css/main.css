@@ -8778,7 +8778,7 @@ h2.search-title {
 
 /* gallery */
 
-.abs-link .price, .abs-link .old_price {
+.overlay_price .price, .overlay_price .old_price {
 	background-color: transparent;
 	position: static;
 	color: #3a3a3c;
@@ -8786,13 +8786,13 @@ h2.search-title {
 	padding: 0px;
 }
 
-.abs-link .old_price {
+.overlay_price .old_price {
 	text-decoration: line-through;
 	margin-right: 10px;
 	font-size: 16px;
 }
 
-.abs-link {
+.overlay_price {
 	display: flex;
 	align-items: flex-end;
 	top: 0px !important;
