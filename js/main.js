@@ -805,4 +805,43 @@
 		jQuery(".page_header_wrapper").css({ height: $header.first().outerHeight() });
 
 	});
+	//Product
+	$('.product-image--list .item').click(function () {
+		var url = $(this).children('img').attr('src');
+		$('.item-selected').removeClass('item-selected');
+		$(this).addClass('item-selected');
+		$('#featured').attr('src', url);
+	});
+
+	$('#buy-toaster').click(function () {
+		alert("BUY ME PLS!");
+	});
+	jQuery("#carousel_product").owlCarousel({
+		autoplay: true,
+		lazyLoad: true,
+		loop: true,
+		margin: 20,
+		responsiveClass: true,
+		autoHeight: true,
+		autoplayTimeout: 5000,
+		smartSpeed: 200,
+		nav: false,
+		responsive: {
+			0: {
+				items: 1
+			},
+
+			600: {
+				items: 3
+			},
+
+			1024: {
+				items: 3
+			},
+
+			1366: {
+				items: 3
+			}
+		}
+	});
 })();
