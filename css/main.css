@@ -3751,7 +3751,9 @@ form [class*="col-"] {
 }
 
 /* Hero text in sections */
-
+.gallery_index{
+	padding-top: 100px;
+}
 .section_header {
 	margin-bottom: 25px;
 	font-size: 35px;
@@ -7260,9 +7262,6 @@ body.active-side-header.slide-right .page_header_side {
 	margin-left: auto;
 }
 
-.section_counters.parallax {
-	background-image: url(../img/parallax/counters.jpg);
-}
 
 .get_quote.parallax {
 	background-image: url(../img/parallax/quote.jpg);
@@ -9208,6 +9207,15 @@ aside .with_padding {
 	.affix-aside, .affix-aside.affix, .affix-aside.affix-bottom {
 		position: static;
 		width: inherit !important;
+	}
+	.services_carousel .big_image{
+		display: none;
+	}
+	.services_carousel .product-image--list{
+		padding: 0px !important;
+	}
+	.services_carousel .owl-carousel.owl-loaded{
+		margin-bottom: 10px;
 	}
 	.spare_parts a, .spare_parts button {
 		font-size: 10px !important;
